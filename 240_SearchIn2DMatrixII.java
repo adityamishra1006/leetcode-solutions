@@ -1,4 +1,5 @@
 class Solution {
+    // Not Efficenet method to solve this question
     public boolean searchMatrix(int[][] matrix, int target) {
         int m = matrix.length, n = matrix[0].length;
 
