@@ -5,6 +5,8 @@ class Solution {
         int lo =0;
         int hi = n-1;
 
+        // First Position
+
         int fp =-1;
         while(lo<=hi){
             int mid = lo+(hi-lo)/2;
@@ -23,6 +25,8 @@ class Solution {
         lo =0;
         hi = n-1;
 
+
+        // Last Position
         int lp =-1;
         while(lo<=hi){
             int mid = lo+(hi-lo)/2;
