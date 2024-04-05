@@ -39,9 +39,6 @@ class Solution {
             i = i.next;
             j = j.next;
         }
-        if(prev!=null){
-            prev.next=reverse(reversed);
-        }
         return ans;
     }
 }
