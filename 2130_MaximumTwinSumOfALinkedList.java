@@ -26,9 +26,6 @@ class Solution {
         }
 
         ListNode reversed = reverse(slow);
-        if(prev!=null){
-            prev.next=reversed;
-        }
 
         int ans = 0;
         ListNode i = head;
